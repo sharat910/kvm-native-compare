@@ -1,0 +1,45 @@
+
+real	2m42.609s
+user	0m1.312s
+sys	0m6.520s
+
+randwrite: (g=0): rw=randwrite, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=1
+...
+fio-2.2.10
+Starting 8 processes
+randwrite: Laying out IO file(s) (1 file(s) / 512MB)
+randwrite: Laying out IO file(s) (1 file(s) / 512MB)
+randwrite: Laying out IO file(s) (1 file(s) / 512MB)
+randwrite: Laying out IO file(s) (1 file(s) / 512MB)
+randwrite: Laying out IO file(s) (1 file(s) / 512MB)
+randwrite: Laying out IO file(s) (1 file(s) / 512MB)
+randwrite: Laying out IO file(s) (1 file(s) / 512MB)
+randwrite: Laying out IO file(s) (1 file(s) / 512MB)
+
+randwrite: (groupid=0, jobs=8): err= 0: pid=3363: Wed Aug 10 11:39:44 2016
+  write: io=4096.0MB, bw=27533KB/s, iops=6883, runt=152336msec
+    slat (usec): min=0, max=204800, avg=1083.81, stdev=10368.01
+    clat (usec): min=0, max=12024, avg= 0.53, stdev=29.04
+     lat (usec): min=0, max=204805, avg=1084.72, stdev=10368.45
+    clat percentiles (usec):
+     |  1.00th=[    0],  5.00th=[    0], 10.00th=[    0], 20.00th=[    0],
+     | 30.00th=[    0], 40.00th=[    0], 50.00th=[    0], 60.00th=[    0],
+     | 70.00th=[    1], 80.00th=[    1], 90.00th=[    1], 95.00th=[    1],
+     | 99.00th=[    2], 99.50th=[    3], 99.90th=[   10], 99.95th=[   36],
+     | 99.99th=[  106]
+    bw (KB  /s): min=   19, max=537093, per=14.12%, avg=3887.66, stdev=21125.83
+    lat (usec) : 2=98.43%, 4=1.32%, 10=0.14%, 20=0.03%, 50=0.04%
+    lat (usec) : 100=0.02%, 250=0.02%, 500=0.01%, 750=0.01%, 1000=0.01%
+    lat (msec) : 2=0.01%, 4=0.01%, 10=0.01%, 20=0.01%
+  cpu          : usr=0.09%, sys=0.53%, ctx=21596, majf=0, minf=83
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=1048576/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+  WRITE: io=4096.0MB, aggrb=27533KB/s, minb=27533KB/s, maxb=27533KB/s, mint=152336msec, maxt=152336msec
+
+Disk stats (read/write):
+  sda: ios=11865/303296, merge=4708/159543, ticks=46240/568144, in_queue=627600, util=98.12%

@@ -1,0 +1,52 @@
+~/Downloads/l_mklb_p_11.3.3.011/benchmarks_11.3.3/linux/mkl/benchmarks/linpack$ nuttcp -v -i2 -T60 172.50.89.76
+nuttcp-t: v6.1.2: socket
+nuttcp-t: buflen=65536, nstream=1, port=5001 tcp -> 172.50.89.76
+nuttcp-t: time limit = 60.00 seconds
+nuttcp-t: connect to 172.50.89.76 with mss=1448, RTT=0.492 ms
+nuttcp-t: send window size = 87040, receive window size = 372480
+nuttcp-t: available send window = 43520, available receive window = 186240
+nuttcp-r: v6.1.2: socket
+nuttcp-r: buflen=65536, nstream=1, port=5001 tcp
+nuttcp-r: interval reporting every 2.00 seconds
+nuttcp-r: accept from 172.50.89.33
+nuttcp-r: send window size = 87040, receive window size = 374400
+nuttcp-r: available send window = 43520, available receive window = 187200
+  221.6875 MB /   2.00 sec =  929.8224 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3600 Mbps     0 retrans
+  224.5000 MB /   2.00 sec =  941.6198 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3440 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3699 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3648 Mbps     0 retrans
+  224.5000 MB /   2.00 sec =  941.6212 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3544 Mbps     0 retrans
+  224.5000 MB /   2.00 sec =  941.6260 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3375 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3812 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3393 Mbps     0 retrans
+  224.5000 MB /   2.00 sec =  941.6406 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3384 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3699 Mbps     0 retrans
+  224.5000 MB /   2.00 sec =  941.6311 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3596 Mbps     0 retrans
+  224.5000 MB /   2.00 sec =  941.6212 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3591 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3572 Mbps     0 retrans
+  224.5000 MB /   2.00 sec =  941.6231 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3591 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3591 Mbps     0 retrans
+  224.5000 MB /   2.00 sec =  941.6208 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3596 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3535 Mbps     0 retrans
+  224.5000 MB /   2.00 sec =  941.6208 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3652 Mbps     0 retrans
+  224.5000 MB /   2.00 sec =  941.6212 Mbps     0 retrans
+  224.4375 MB /   2.00 sec =  941.3596 Mbps     0 retrans
+nuttcp-t: 6733.5000 MB in 60.00 real seconds = 114918.31 KB/sec = 941.4108 Mbps
+nuttcp-t: retrans = 0
+nuttcp-t: 107736 I/O calls, msec/call = 0.57, calls/sec = 1795.60
+nuttcp-t: 0.2user 18.9sys 1:00real 31% 0i+0d 1574maxrss 0+0pf 104699+385csw
+
+nuttcp-r: 6733.5000 MB in 60.02 real seconds = 114874.31 KB/sec = 941.0504 Mbps
+nuttcp-r: 347141 I/O calls, msec/call = 0.18, calls/sec = 5783.46
+nuttcp-r: 0.2user 6.7sys 1:00real 11% 0i+0d 798maxrss 0+16pf 239532+58csw
+
